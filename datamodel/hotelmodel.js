@@ -22,6 +22,7 @@ const hotelSchema = new mongoose.Schema({
     houseRules: { type: [String], required: true },
     propertyType: { type: String, required: true },
     isCancelable: { type: Boolean, required: true },
+    outofstock: {type: Number}
 }
 )
 

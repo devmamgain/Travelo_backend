@@ -11,15 +11,18 @@ router.route("/")
     const beds = req.query.numberOfBeds;
     const bathrooms = req.query.numberOfBathrooms;
     const propertytype = req.query.propertyType;
+    const outofstocks = req.query.outofstock;
     try {
         let hotels
-        if (hotelcategory || hotelname || hotelstate || pricing || bedrooms || beds) {
+        if (hotelcategory || hotelname || hotelstate || pricing || bedrooms || outofstocks || beds) {
             const query = {};
       
             if (hotelcategory) {
               query.category = hotelcategory;
             }
-      
+           if (outofstocks){
+            query.outofstock = outofstocks;
+           }
             if (hotelname) {
               query.name = { $regex: new RegExp(hotelname.trim(), 'i') };
             }
@@ -43,6 +46,7 @@ router.route("/")
               if(propertytype){
                 query.propertyType = propertytype;
               }
+       
             hotels = await Hotel.find(query); 
         }
         else{

@@ -23,6 +23,7 @@ const hoteldata = [{
     houseRules: ["Check-in: 12:00 pm - 11:00 pm", "Check out: 11:00 am", "Pets are allowed"],
     propertyType: "Hotel",
     isCancelable: true,
+    
 },
 {
     id: uuid(),
@@ -48,6 +49,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 1:00 pm", "Check out: 11:00 am", "Pets are allowed"],
     propertyType: "Guest House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -73,6 +76,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: false,
+    
+
 },
 {
     id: uuid(),
@@ -98,6 +103,7 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "Hotel",
     isCancelable: true,
+      
 },
 {
     id: uuid(),
@@ -123,6 +129,9 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "Guest House",
     isCancelable: true,
+    
+
+
 },
 {
     id: uuid(),
@@ -148,6 +157,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 
 // from here
@@ -175,6 +186,8 @@ const hoteldata = [{
     houseRules: ["Check-in: 12:00 pm - 7:00 pm", "Check out: 10:00 am", "Self check-in with lockbox", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -200,6 +213,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -225,6 +240,8 @@ const hoteldata = [{
     houseRules: ["Check-in: 12:00 pm - 5:00 pm", "No Pets", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -250,6 +267,8 @@ const hoteldata = [{
     houseRules: ["Check-in: 2:00 pm - 5:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -275,6 +294,8 @@ const hoteldata = [{
     houseRules: ["Check-in: 2:00 pm - 5:00 pm", "Not suitable for children and infants", "No Pets", "No smoking", "No parties or events", "Smoking is allowed"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -300,6 +321,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "Smoking is allowed",],
     propertyType: "Guest House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -325,6 +348,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "No Pets", "Smoking is allowed"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -350,6 +375,8 @@ const hoteldata = [{
     houseRules: ["Check-in: 3:00 pm - 2:00 am", "Check out: 10:00 am", "Pets are allowed", "Smoking is allowed"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -375,6 +402,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 12:00 pm", "Check out: 11:00 am", "Pets are allowed", "Smoking is allowed"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -400,6 +429,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "No pets", "No smoking"],
     propertyType: "Guest House",
     isCancelable: true,
+    
+
 },
 
 {
@@ -426,6 +457,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "No pets"],
     propertyType: "Hotel",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -451,6 +484,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -476,6 +511,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -501,6 +538,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -526,6 +565,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -551,6 +592,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -576,6 +619,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -601,6 +646,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -626,6 +673,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -651,6 +700,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -676,6 +727,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -701,6 +754,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -726,6 +781,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -751,6 +808,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -776,6 +835,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -801,6 +862,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -826,6 +889,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "House",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -851,6 +916,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "Hotel",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -876,6 +943,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "Hotel",
     isCancelable: true,
+    
+
 },
 {
     id: uuid(),
@@ -900,6 +969,8 @@ const hoteldata = [{
     houseRules: ["Check-in: After 2:00 pm", "Check out: 11:00 am", "Pets are allowed", "No smoking", "No parties or events"],
     propertyType: "Flat",
     isCancelable: false,
+    
+
 },
 ]
 module.exports= hoteldata
