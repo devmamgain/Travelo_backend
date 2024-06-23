@@ -1,6 +1,9 @@
 const mongoose = require("mongoose")
+require('dotenv').config();
+
+const mongolinkpass = process.env.DB_PASS
 const connection = async ()=>{
-    await mongoose.connect("mongodb+srv://devmamgain123:Boltzman123@testinglearning.ltdjpi8.mongodb.net/?retryWrites=true&w=majority")
+    await mongoose.connect(mongolinkpass)
 }
 
 module.exports= connection

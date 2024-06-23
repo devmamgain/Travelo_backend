@@ -5,13 +5,13 @@ const verifyUser = require("../middleware/verifyuser");
 const Hotel = require("../datamodel/hotelmodel"); // Assuming this is where your Hotel model is defined
 
 router.post("/postorder",verifyUser, async(req,res)=>{
-    const {hotelId,paymentId,Days} = req.body
+    const {hotelId,paymentId,totalamount,Days} = req.body
     const userId = req.user.id; // Assuming verifyUser adds user to req
-    if(!hotelId || !paymentId || !Days)
+    if(!hotelId || !paymentId || !Days || !totalamount || !userId)
         {
             return res.status(400).json({ message: "missing" });
           }
-          const neworder = new ordermodel({hotelId,userId,paymentId,Days})
+          const neworder = new ordermodel({hotelId,userId,paymentId,Days,totalamount})
           try {
             const savedOrder = await neworder.save();
             res.status(201).json(savedOrder);
